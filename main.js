@@ -1,8 +1,8 @@
 import * as THREE from "three";
 import { OrbitControls } from "three/examples/jsm/controls/OrbitControls.js";
 import WebGL from "three/addons/capabilities/WebGL.js";
-import getStarfield from "./getStarfield.js";
-import { getFresnelMat } from "./getFresnelMat.js";
+import getStarfield from "./imports/getStarfield.js";
+import { getFresnelMat } from "./imports/getFresnelMat.js";
 
 if (WebGL.isWebGL2Available()) {
   const width = window.innerWidth;
